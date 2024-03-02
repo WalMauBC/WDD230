@@ -1,0 +1,51 @@
+body{
+    background-color: #D2E7B4;
+}
+header{
+    background-color: #CFA567;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #364422;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Styling for the description */
+section .color-schema {
+    margin-bottom: 20px;
+}
+
+/* Styling for the main color */
+#color-first {
+    background-color: #D2E7B4;
+}
+#color-second {
+   background-color: #CFA567;
+}
+
+/* Styling for the accent color */
+#color-third {
+    background-color: #7B9B4D;
+}
+#color-fourth {
+    background-color: #9DAD87;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #9DAD87;
+    text-align: center;
+    margin-top: 20px;
+}
