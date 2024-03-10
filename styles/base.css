@@ -32,7 +32,7 @@ main {
 	margin: 0 auto;
 }
 
-header span {
+h1 .text-secondary {
   
   position: initial; 
   color: #161c22; 
@@ -144,7 +144,7 @@ footer {
     margin-top: 1rem;
     padding: .5rem;
   }
-  footer p {
+  footer span {
     background-color: #4f748d;
     color: rgb(245, 245, 245);
     font-weight: 400;
