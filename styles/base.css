@@ -1,11 +1,17 @@
 header {
 	background-color: #bbb;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 20px;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
     
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f8f8f8; 
 }
 
 
@@ -14,57 +20,89 @@ main {
 }
 
 h1 {
-	font-size: 2rem;
+  text-align: center; 
+  position: relative; 
+}
+
+h1, h2 {
+  color: #0066cc; 
+}
+
+h1::after {
+  content: ''; 
+  position: absolute; 
+  bottom: -10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1300px;
+  height: 2px; 
+  background-color: #333; 
 }
 
 nav {
 	background-color: #4f748d;
 	margin: 0 auto;
 	max-width: 100%;
+  padding: 10px;
 }
 nav ul {
-	list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
+nav li {
+  margin: 0 10px; 
+  font-size: 18px; 
+}
 
 nav a {
-	display: block;
-	color: #fff;
-	text-align: center;
-	padding: 1rem;
-	text-decoration: none;
+  color: #fff; 
+  text-decoration: none;
+  display: block; 
+  padding: 15px; 
 }
 
 nav a:hover {
-	text-decoration:overline;
+  background-color: rgba(255, 255, 255, 0.2); 
+  border-radius: 15px;
 }
 
-.active {
+nav a:active {
 	color: rgb(195, 202, 89);
 }
 
 main {
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap; 
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px;
 }
+ul {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+li {
+  margin-bottom: 10px;
+}
+
 
 .sections-container {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: flex-start;
+    
 }
 
 section {
-    width: calc(50% - 1rem);;
+    width: 100%;
     border: 1px solid #4f748d;
     background-color: #bcc7cd;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
     box-sizing: border-box;
+    
 }
 
 section .card {
@@ -75,32 +113,16 @@ section .card {
     padding: .75rem 0;
     
 }
-
-section p {
-    padding: 10px;
-}
-  
-  
-  
   .card {
     border-radius: 11px;
     border: solid 1px #ccc;
     margin-bottom: 1rem;
     background-color: white;
   }
-  .card h3 {
-    background-color: var(--accent-color);
-    margin: 0;
-    padding: 1rem;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
+  
   .card p {
     margin: 1rem 2%;
   }
-
-  
-
 footer {
     background-color: var( --baseColor);
     text-align: center;
@@ -110,6 +132,13 @@ footer {
   footer p {
     background-color: #4f748d;
     color: rgb(245, 245, 245);
+    font-weight: 400;
+    margin: .5rem;  
+  }
+
+  footer span {
+   
+    color: black;
     font-weight: 400;
     margin: .5rem;  
   }

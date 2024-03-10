@@ -1,14 +1,30 @@
-@media only screen and (min-width: 38rem) {
-
-    .section {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 10px;
+/* For mobile devices */
+@media screen and (max-width: 767px) {
+    nav ul {
+        flex-direction: column; 
     }
 
-    .section .card {
-        box-shadow: 1px 1px 1px black;
+    nav li {
+        margin: 10px 0; 
     }
 
+    h1::after{
+        width: 400px;
+    }
 }
-  
+
+/* For larger screens */
+@media screen and (min-width: 768px) {
+    nav ul {
+        flex-direction: row; 
+    }
+
+    nav li {
+        margin: 0 100px;
+    }
+    .my {
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+        gap: 20px; 
+    }
+}
