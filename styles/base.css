@@ -124,7 +124,7 @@ section .card {
     margin: 1rem 2%;
   }
 footer {
-    background-color: var( --baseColor);
+    
     text-align: center;
     margin-top: 1rem;
     padding: .5rem;
