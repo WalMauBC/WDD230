@@ -1,3 +1,16 @@
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
 header {
 	background-color: #bbb;
   padding: 20px;
@@ -19,12 +32,15 @@ main {
 	margin: 0 auto;
 }
 
-h1 {
-  text-align: center; 
-  position: relative; 
+header span {
+  
+  position: initial; 
+  color: #161c22; 
 }
 
 h1, h2 {
+  text-align: center; 
+  position: relative; 
   color: #0066cc; 
 }
 
@@ -131,13 +147,6 @@ footer {
   footer p {
     background-color: #4f748d;
     color: rgb(245, 245, 245);
-    font-weight: 400;
-    margin: .5rem;  
-  }
-
-  footer span {
-   
-    color: black;
     font-weight: 400;
     margin: .5rem;  
   }
