@@ -1,155 +1,43 @@
-.roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-
-header {
-	background-color: #bbb;
-  
-  padding: 20px;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 30px;
-    
-}
+/* Base styles */
 
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  background-color: #f8f8f8; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-
-main {
-	margin: 0 auto;
+header {
+    background-color: #68A4A6;
+    color: #000;
+    padding: 10px;
 }
 
-h1 .text-secondary {
-  
-  position: initial; 
-  color: #161c22; 
-}
-
-h1, h2 {
-  text-align: center; 
-  position: relative; 
-  color: #0066cc; 
-}
-
-h1::after {
-  content: ''; 
-  position: absolute; 
-  bottom: -10px; 
-  left: 50%;
-  transform: translateX(-50%);
-  width: 1300px;
-  height: 2px; 
-  background-color: #333; 
-}
-
-
-
-nav {
-	background-color: #4f748d;
-	margin: 0 auto;
-	max-width: 100%;
-  padding: 10px;
-}
 nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav li {
-  margin: 0 10px; 
-  font-size: 18px; 
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-nav a {
-  color: #fff; 
-  text-decoration: none;
-  display: block; 
-  padding: 15px; 
-}
-
-nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2); 
-  border-radius: 15px;
-}
-
-nav a:active {
-	color: rgb(195, 202, 89);
+nav ul li a {
+    color: #000;
+    text-decoration: none;
 }
 
 main {
-  max-width: 800px;
-  margin: 0 auto; 
-  padding: 20px;
-}
-ul {
-  list-style-type: none; 
-  padding: 0; 
+    padding: 20px;
 }
 
-li {
-  margin-bottom: 10px;
-}
-
-
-.sections-container {
-    display: flex;
-    justify-content: flex-start;
-    
-}
-
-section {
-    width: 100%;
-    border: 1px solid #4f748d;
-    background-color: #bcc7cd;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 1rem 0;
-    box-sizing: border-box;
-    
-}
-
-section .card {
-    background-color: #4f748d;
-    color: #fff;
-    display: block;
-    text-align: center;
-    padding: .75rem 0;
-    
-}
-  .card {
-    border-radius: 11px;
-    border: solid 1px #ccc;
-    margin-bottom: 1rem;
-    background-color: white;
-  }
-  
-  .card p {
-    margin: 1rem 2%;
-  }
 footer {
-    text-align: center;
-    margin-top: 1rem;
-    padding: .5rem;
-  }
-  footer p {
-    background-color: #4f748d;
-    color: rgb(245, 245, 245);
-    font-weight: 400;
-    margin: .5rem;  
-  }
+    background-color: #68A4A6;
+    color: #000;
+    padding: 10px;
+}
+
+.contact-info, .development-info {
+    margin: 10px;
+}
