@@ -1,5 +1,5 @@
 const section = document.querySelector("#cards-div");
-const url = "https://raw.githubusercontent.com/WalMauBC/wdd230/main/data/links.json";
+const url = "https://Zamarr0n.github.io/wdd230/chamber/data/members.json";
 
 // async function to get the data:
 async function getLink() {
