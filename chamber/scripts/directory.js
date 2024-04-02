@@ -1,57 +1,73 @@
 const section = document.querySelector("#cards-div");
 const url = "https://Zamarr0n.github.io/wdd230/chamber/data/members.json";
 
-// async function to get the data:
-async function getLink() {
-    try {
-        // fetching data 
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        // converting data to a JSON object
-        const data = await response.json();
-        // displaying the information
-        displayData(data.members);
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
+//async function to get the data:
+async function getLink(){
+    //fetching data 
+    const respond = await fetch(url);
+    //converting data to a json object:
+    const data = await respond.json();
+    //displaying the information:
+    displayData(data.members);
 }
 
-const displayData = (members) => {
-    members.forEach(memberGroup => {
-        memberGroup.info.forEach(member => {
-            // Creating elements to implement the data inside them
+const displayData = (data) => {
+    data.forEach(element => {
+        element.info.forEach(data => {
+            //mapping data
+            const name = data.name;
+            const Gender = data.Gender;
+            const Address = data.address;
+            const Phone = data.phone;
+            const url = data.url;
+            const image = data.image;
+            console.log(image)
+            const membership = data.membership;
+            //Creating elements to implement the data inside them.
             const div = document.createElement("div");
             const h1 = document.createElement("h1");
-            const paragraph1 = document.createElement("p");
+            const paragraph = document.createElement("p");
             const paragraph2 = document.createElement("p");
-            const paragraph3 = document.createElement("p");
             const link = document.createElement("a");
             const portrait = document.createElement("img");
-            // Implementing the data with the objects created inside the HTML
-            h1.textContent = member.name;
-            paragraph1.textContent = `Gender: ${member.Gender}`;
-            paragraph2.textContent = `Address: ${member.address}`;
-            paragraph3.textContent = `Phone: ${member.phone}`;
-            link.setAttribute("href", member.url);
-            link.textContent = 'Visit website';
-            portrait.setAttribute("src", member.image);
-            portrait.setAttribute("alt", "Member image");
+            const paragraph3 = document.createElement("p");
+            const paragraph4 = document.createElement("p");
+            //implementing the data with the objects created inside the html
+            h1.textContent = name;
+            paragraph.textContent = Gender;
+            paragraph2.textContent = Address;
+            paragraph3.textContent = Phone;
+            paragraph4.textContent = membership;
+            link.setAttribute("href", url);
+            link.textContent = 'web-page';
+            portrait.setAttribute("src", data.image);
+            portrait.setAttribute("alt", "members image");
             portrait.setAttribute("width", '300');
             portrait.setAttribute("loading", 'lazy');
             portrait.setAttribute("height", '300');
-            // Appending the child elements
+            //apending the childs so evrything is inside the div
             div.appendChild(h1);
             div.appendChild(portrait);
-            div.appendChild(paragraph1);
+            div.appendChild(paragraph);
             div.appendChild(paragraph2);
             div.appendChild(paragraph3);
             div.appendChild(link);
+            div.appendChild(paragraph4);
             section.appendChild(div);
             div.classList.add("style");
         });
+        
     });
 }
 
+
 getLink();
+
+const hamButton = document.querySelector("#menu")
+const navigation = document.querySelector(".navigation");
+const visits = document.getElementById("visits")
+
+hamButton.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    hamButton.classList.toggle('open');
+});
