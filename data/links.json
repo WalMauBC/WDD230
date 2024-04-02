@@ -1,0 +1,45 @@
+{
+    "weeks": [
+        {
+            "week":"Week 01",
+            "links": [
+                {"title": "The Chamber of Commerce Site Plan", "url": "week01/chamber-site-plan.html"}
+            ]
+        },
+        {
+            "week":"Week 02",
+            "links": [
+                {"title": "Web Design Principles", "url": "week02/design.html"},
+                {"title": "Hamburger Menu", "url": "https://codepen.io/geek-jeef/full/qBwZjdG"},
+                {"title": "DOM Manipulation", "url": "week02/bom.html"}
+            ]
+        },
+        {
+            "week":"Week 3",
+            "links": [
+                {"title": "WebP", "url": "week03/images/landscape.webp"},
+                {"title": "LazyLoad", "url": "week03/lazyload.html"},
+                {"title": "Responsive Images", "url": "week03/responsive-images.html"},
+                {"title": "localStorage", "url": "week03/bom.html"}
+              ]
+        },
+        {
+            "week":"Week 4",
+            "links": [
+                {"title": "Pseudo-Classes", "url": "https://codepen.io/geek-jeef/full/JjVrqNL"},
+                {"title": "CSS-Combinations", "url": "images/css-conbinations-practice.png"},
+                {"title": "Table", "url": "week04/tablebuild.html"},
+                {"title": "Form", "url": "week04/index.html"}
+              ]
+        },
+        {
+            "week":"Week 5",
+            "links": [
+                {"title": "CSS Pseudo-elements", "url": "https://codepen.io/geek-jeef/full/oNOGRVm"},
+                {"title": "JSon Test", "url": "week05/new-ward-members.json"},
+                {"title": "Prophets List", "url": "week05/prophets.html"},
+                {"title": "Weather", "url": "week05/weather.html"}
+              ]
+        }
+    ]
+}
