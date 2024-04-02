@@ -1,45 +1,64 @@
 {
-    "weeks": [
+    "members":
+    [
         {
-            "week":"Week 01",
-            "links": [
-                {"title": "The Chamber of Commerce Site Plan", "url": "week01/chamber-site-plan.html"}
+            "info":[
+                {
+                    "name":"Mauricio",
+                    "Gender": "male",
+                    "address": "Angamos Street, Lima, Peru",
+                    "phone": "999335631",
+                    "url" : "https://website_url",
+                    "image":"https://www.pexels.com/es-es/foto/foto-de-hombre-tomando-una-foto-2046773/",
+                    "membership": "Priesthood"
+                },
+                {
+                    "name":"Diana",
+                    "Gender": "female",
+                    "address": "Javier Prado Avenue, Lima, Peru",
+                    "phone": "982096963",
+                    "url" : "https://website_url",
+                    "image" : "https://images.pexels.com/photos/785667/pexels-photo-785667.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "membership": "Relief Society"
+                },
+                {
+                    "name":"Jorge",
+                    "Gender": "male",
+                    "address": "Malvinas Avenue, Lima, Peru",
+                    "phone": "999569784",
+                    "url" : "https://website_url",
+                    "image":"https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "membership": "Priesthood"
+                },
+                {
+                    "name":"Lucia",
+                    "Gender": "female",
+                    "address": "140 La Paz Street, La Molina, Peru",
+                    "phone": "901626695",
+                    "url" : "https://website_url",
+                    "image":"https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "membership": "Relief Society"
+                },
+                {
+                    "name":"Francisco",
+                    "Gender": "male",
+                    "address": "234 Bolivia street, Montevideo, Peru",
+                    "phone": "936567854",
+                    "url" : "https://website_url",
+                    "image":"https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=600",
+                    "membership": "Priesthood"
+                },
+                {
+                    "name":"Gustavo",
+                    "Gender": "male",
+                    "address": "890 Alfonso Ugarte, Arequipa, Peru",
+                    "phone": "982095552",
+                    "url" : "https://website_url",
+                    "image":"https://www.pexels.com/es-es/foto/hombre-en-camiseta-blanca-con-nino-en-la-espalda-1456955/",
+                    "membership": "Priesthood"
+                }
+            
             ]
-        },
-        {
-            "week":"Week 02",
-            "links": [
-                {"title": "Web Design Principles", "url": "week02/design.html"},
-                {"title": "Hamburger Menu", "url": "https://codepen.io/geek-jeef/full/qBwZjdG"},
-                {"title": "DOM Manipulation", "url": "week02/bom.html"}
-            ]
-        },
-        {
-            "week":"Week 3",
-            "links": [
-                {"title": "WebP", "url": "week03/images/landscape.webp"},
-                {"title": "LazyLoad", "url": "week03/lazyload.html"},
-                {"title": "Responsive Images", "url": "week03/responsive-images.html"},
-                {"title": "localStorage", "url": "week03/bom.html"}
-              ]
-        },
-        {
-            "week":"Week 4",
-            "links": [
-                {"title": "Pseudo-Classes", "url": "https://codepen.io/geek-jeef/full/JjVrqNL"},
-                {"title": "CSS-Combinations", "url": "images/css-conbinations-practice.png"},
-                {"title": "Table", "url": "week04/tablebuild.html"},
-                {"title": "Form", "url": "week04/index.html"}
-              ]
-        },
-        {
-            "week":"Week 5",
-            "links": [
-                {"title": "CSS Pseudo-elements", "url": "https://codepen.io/geek-jeef/full/oNOGRVm"},
-                {"title": "JSon Test", "url": "week05/new-ward-members.json"},
-                {"title": "Prophets List", "url": "week05/prophets.html"},
-                {"title": "Weather", "url": "week05/weather.html"}
-              ]
         }
-    ]
+]
 }
